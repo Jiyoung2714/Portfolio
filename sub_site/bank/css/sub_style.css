@@ -1,0 +1,76 @@
+* { margin: 0; padding: 0;}
+a { text-decoration: none; display: block;}
+li { list-style: none;}
+img { border: 0;}
+
+.auto { margin: 0 auto;}
+
+body { background:#f4f3f2; font-size: 16px !important;}
+.sub_bg { background: #fff;}
+
+/* sub_section */
+.sub_section { width: 1000px; margin: 30px auto; display: flex; justify-content: space-between;}
+
+/* aside */
+.left_nav { width: 190px; height: 550px; padding-bottom: 60px ;}
+ul.l_menu { margin: 15px auto 30px; padding: 0 15px;}
+ul.l_menu li { border-bottom: 1px solid #d1d1d1;}
+ul.l_menu li a { padding: 10px 0; font:700 1em "Nanum Gothic"; color:#333; display: flex; justify-content: space-between;}
+ul.l_menu li a:hover { color:#a8353a}
+ul.l_menu li a span { display: block; width: 14px; height: 14px; background: url(../sub/images/arrow.png) no-repeat;}
+ul.l_menu li a:hover span { background-position: -14px 0;}
+
+.l_banner { padding: 0 15px;}
+.l_banner li { display: flex; justify-content: space-evenly; padding: 10px 0; border-bottom: 1px solid #d1d1d1;  }
+.l_banner li a img { transition: all 0.3s; display: block;}
+.l_banner li a:hover img { box-shadow: 3px 3px 3px #0004; }
+.l_banner li:last-child { border: 0;}
+
+/* r_section */
+.r_section  { width: 780px; margin: 0 auto; padding: 30px 30px 70px; box-sizing: border-box;}
+.sub_top { background:url(../sub/images/greeting_bg.jpg) 100% 100% no-repeat; border-bottom: 1px solid #d1d1d1; padding-top:10px;}
+ul.home { display: flex; color:#999; font-size: 0.75em; align-items: center;}
+ul.home li { margin: 0 2px; display: flex; align-items: center; justify-content: space-evenly;}
+ul.home li:first-child { background: #d1d1d1; color:#fff;width: 20px; height: 20px; border-radius: 50%; }
+ul.home li:nth-child(2n) { font-size: 0.3em; color:#d1d1d1}
+.sub_top h1 { font:700 2.5em "Nanum Gothic"; color:#666; margin: 20px 0;}
+.sub_top p { font:1em "돋움"; color:#666; line-height: 1.4; margin-bottom: 30px;}
+
+/* text_wrap */
+.text_wrap { width: 100%; margin-top: 30px;}
+.text_wrap > h3 { font:700 1.6em "Nanum Gothic"; color:#a8353a; margin-bottom: 30px;}
+.text_wrap .text { font:0.9em "돋움"; color:#666; line-height: 1.6; margin-bottom: 30px; text-align: justify;}
+.small_title { font:700 1.3em "Nanum Gothic"; color:#a8353a; margin-bottom: 15px;}
+
+.name { border-left: 4px solid #a8353a; padding-left: 10px;}
+.name li { margin-bottom: 5px;}
+.name li:last-child { font-size: 1.4em;}
+
+/* .text{padding:0;}
+.text>li{background:url(../sub/images/cbb_spr_ico.png) -23px -5px no-repeat; list-style:none; display:flex; font-size:0.9em; margin-bottom:5px; color:#666;}
+.text>li>p{margin:0; width:100px; margin-left:10px;}
+.t1>li>p{width:130px;} */
+
+/* 오시는 길 */
+.map_add ul.text{color:#666;}
+dl dt{float:left; background:url(../sub/images/cbb_spr_ico.png) -23px -6px no-repeat; padding-left:10px;}
+dl dd{padding-left:100px;}
+dl{font-size:0.9em; margin:20px 0 40px 0;}
+ul.text:last-child dd{padding-left:40px;}
+
+/* 나눔은행 */
+.bank_bg{background:url(../sub/images/bank_bg.jpg) 100% 100% no-repeat;}
+.bank_wrap h2{color:#666; margin:30px 0;}
+.bank_thumb{display:flex; justify-content:space-between;}
+.bank_thumb img{border:1px solid #d1d1d1;}
+dl dd{padding-left:95px;}
+dl{font-size:0.9em; margin:20px 0 40px 0;}
+
+/* 후원안내 */
+.sponsor_bg{background:url(../sub/images/sponsor_bg.jpg) 100% 100% no-repeat;}
+
+/* 자원봉사 */
+.review_bg{background:url(../sub/images/review_bg.jpg) 100% 100% no-repeat;}
+
+/* 나눔이야기 */
+.notice_bg{background:url(../sub/images/notice_bg.jpg) 100% 100% no-repeat;}
