@@ -8,7 +8,7 @@ h1{margin-bottom:20px;}
 .title img{height:80px;}
 .title p{font:700 2.8em 'D2Coding'; position:absolute; bottom:27px; left:120px;}
 
-.intro{height:100vh; overflow:hidden; display:flex; align-items:center; position:relative;}
+.intro{height:100%; overflow:hidden; display:flex; align-items:center; position:relative;}
 .intro>img{width:100%;}
 .intro>p{position:absolute; top:50%; left:41%; color:#fff; font:700 5em 'D2Coding';}
 
